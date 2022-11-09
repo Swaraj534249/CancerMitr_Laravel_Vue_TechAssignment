@@ -64,3 +64,38 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Procedure
+
+1. Download/Clone the project
+
+2. Open XAMPP and start Apache and MySQL
+
+3. Open project in IDE.
+
+4. Open terminal and run 
+`composer install`
+`yarn install`
+`php artisan key:generate`
+
+5. Go to `http://localhost/phpmyadmin` >> New and create a Databse with the name `cancermitrvue`.  `(note: use proper spelling)`.
+
+6. In terminal run 
+`php artisan migrate:fresh`
+`php artisan serve`
+
+7. Go to the link shown in terminal
+
+![image](https://user-images.githubusercontent.com/82468713/200931606-f7c43237-6fa4-4c85-96a1-d19cb1b036a4.png)
+
+8. Click on 'Add Book' button to add new book
+
+![image](https://user-images.githubusercontent.com/82468713/200932036-3db45906-d960-43fe-a87d-7c1eb129e951.png)
+
+9. Insert the information and click submit
+Your info will get added to the database and show in the table
+
+![image](https://user-images.githubusercontent.com/82468713/200932736-adb66d9f-1ec7-4d9b-9fdd-58f53e79ca47.png)
+
+10. You can perform CRUD operation.
+
